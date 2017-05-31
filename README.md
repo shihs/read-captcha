@@ -28,7 +28,7 @@ http://gcis.nat.gov.tw/pub/cmpy/cmpyInfoListAction.do
    
    
 # BUREAU OF FOREIGN TRADE
-破解國貿局進出口廠商基本資料查詢驗證碼 
+破解國貿局進出口廠商基本資料查詢驗證碼     
 https://fbfh.trade.gov.tw/rich/text/indexfbOL.asp  
 
 ![alt text](https://github.com/shihs/read-captcha/blob/master/BUREAU%20OF%20FOREIGN%20TRADE/pic.png)        
