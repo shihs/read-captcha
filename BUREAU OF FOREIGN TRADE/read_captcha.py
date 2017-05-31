@@ -2,7 +2,6 @@
 # 破解國貿局進出口廠商管理系統驗證碼https://fbfh.trade.gov.tw/rich/text/indexfbOL.asp
 import requests
 requests.packages.urllib3.disable_warnings()
-from bs4 import BeautifulSoup
 from PIL import Image
 import pytesseract
 
