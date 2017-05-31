@@ -7,6 +7,10 @@
 
 *Resize picture could make it more correctly 
 
+    
+
+    
+    
 
 
 # GCIS
@@ -19,7 +23,10 @@ http://gcis.nat.gov.tw/pub/cmpy/cmpyInfoListAction.do
 所以只要下載圖片後稍微調整圖片大小再利用pytesseract package解讀內容，
 準確率就非常的高了。         
 
-
+   
+   
+   
+   
 # BUREAU OF FOREIGN TRADE
 破解國貿局進出口廠商基本資料查詢驗證碼 
 https://fbfh.trade.gov.tw/rich/text/indexfbOL.asp  
@@ -32,11 +39,12 @@ https://fbfh.trade.gov.tw/rich/text/indexfbOL.asp
 這裡我使用的方式是，下載圖片後利用histogram()解讀圖片中包含的顏色，
 再將數字以外的點在與原圖相同大小的黑色圖片點上白色，產生字母與數字為黑色的白底圖。
 
-最後產生像這樣的圖片， 
-![alt text](https://github.com/shihs/read-captcha/blob/master/BUREAU%20OF%20FOREIGN%20TRADE/pic2.png)        
+最後產生像這樣的圖片，      
+![alt text](https://github.com/shihs/read-captcha/blob/master/BUREAU%20OF%20FOREIGN%20TRADE/pic2.png)       
 少了一些干擾，比較容易辨認，但這個方式並無法每次都正確。
 
-*參考https://www.urlteam.org/2017/02/%E4%BA%9A%E9%A9%AC%E9%80%8A%E9%AA%8C%E8%AF%81%E7%A0%81%E7%A0%B4%E8%A7%A3%E5%80%BE%E6%96%9C%E5%AD%97%E4%BD%93%E8%AF%86%E5%88%AB%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/
+*參考   
+https://www.urlteam.org/2017/02/%E4%BA%9A%E9%A9%AC%E9%80%8A%E9%AA%8C%E8%AF%81%E7%A0%81%E7%A0%B4%E8%A7%A3%E5%80%BE%E6%96%9C%E5%AD%97%E4%BD%93%E8%AF%86%E5%88%AB%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/
 
 
 
