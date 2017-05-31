@@ -5,7 +5,7 @@ import pytesseract
 
 
 #get captcha of gcis(經濟部商業司商業資料頁面)
-def get_captcha():
+def ReadCaptcha():
 
 	# address of gcis captcha
 	res = requests.get("http://gcis.nat.gov.tw/gps/kaptcha.jpg", stream = True, verify = False, timeout = 30)
@@ -25,4 +25,4 @@ def get_captcha():
 
 
 
-print get_captcha()
+print ReadCaptcha()
